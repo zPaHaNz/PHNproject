@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+	font-family: "Montserrat";
+	padding: 0;
+	margin: 0;
+	color: #222;
+	background-color: #ffffff;
+}
+@media screen and (max-width: 903px) {
+	.head{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-content: : flex-start;
+	}
+	.head__logo{
+		align-self: center;
+		text-align: center;
+	}
+	.head__nav{
+		align-self: center;
+	}
+}
+@media screen and (max-width: 813px){
+	.aboutus__people-1-name
+	{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.4375em;
+		color: #555;
+		margin-top: 20px;
+
+}
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 71.25%;
+	height: 770px;
+	margin: 0 auto;
+}
+.head{
+	height: 10vh;
+}
+
+.head__logo{
+	font-size: 1.5em;
+	color: #f7f7f7;
+}
+.head__menu{
+	text-decoration: none;
+	font-size: 0.875em;
+	color: #f7f7f7;
+}
+.head__nav{
+	width: 50%;
+}
+header {
+	background: url(../img/headerbg.jpg) no-repeat center top / cover;
+	box-sizing: border-box;
+}
+.main_title{
+	text-align: center;
+	height: 90%;
+}
+.main_title__title{
+	text-transform: uppercase;
+	color: #f7f7f7;
+	font-size: 3em;
+}
+.main_title__sub{
+	color: #f7f7f7;
+	margin-top: 5vh;
+	font-size: 1.25em;
+}
+.main_title__btn{
+	text-decoration: none;
+	color: #f7f7f7;
+	border: 2px solid #f7f7f7;
+	padding: 10px 35px;
+	margin-top: 7vh;
+	font-size: 1em;
+	border-radius: 5px;
+}
+#services_screen{
+	height: 100%;
+}
+.serv{
+	margin-top: 9.062337662337662%;
+	margin-bottom: 12.98701298701299%;
+}
+.services__title{
+	margin-top: 12.98701298701299%;
+}
+.servsingle_t{
+	text-align: center;
+	text-transform: uppercase;
+	color: #555;
+	font-size: 0.875em;
+	margin-top: 3.896103896103896%;
+}
+.services__title_shape{
+	margin-top: 3.884415584415584%;
+}
+.servsingle_p{
+	text-align: center;
+	color: #555;
+	font-size: 0.875em;
+	margin-top: 3.202597402597403%;
+	line-height: 1.6em;
+}
+.services__title_t{
+	color: #555;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	text-align: center;
+}
+.cervices__title_sub{
+	color: #555;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 3.896103896103896%;
+}
+.aboutus{
+	background: url(../img/aboutbg.jpg) no-repeat center top / cover;
+	box-sizing: border-box;
+}
+#aboutus__size{
+	height: %;
+}
+.aboutus__title{
+	margin-top: 10.92207792207792%;
+}
+.aboutus__title_t{
+	color: #555;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	text-align: center;
+}
+.aboutus__title_sub{
+	color: #555;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 3.896103896103896%;
+}
+.aboutus__title_shape{
+	margin-top: 3.884415584415584%;
+}
+.aboutus__text{
+	margin-top: 8.1038961038961%;
+}
+.aboutus__text_p{
+	font-size: 0.875em;
+	color: #555;
+	text-align: left;
+	max-width: 34.6875vw;
+}
+.aboutus__people{
+	margin-top: 8.090909090909091%;
+	margin-bottom: 8.090909090909091%;
+}
+.aboutus__people-1-img{
+	max-width: 16.875vw;
+	max-height: 32.46753246753247vh;
+}
+.aboutus__people-1-name{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	color: #555;
+	margin-top: 20px;
+
+}
+.aboutus__people-1-post{
+	text-align: center;
+	font-size: 0.8125em;
+	color: #555;
+	margin-top: 20px;
+	min-height: 71px;
+}
